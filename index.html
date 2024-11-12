@@ -1,203 +1,43 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ruari Douglas | Product Designer</title>
+    <meta name="description" content="Scottish Product Designer living in Toulouse" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>Ruari Douglas | Frontend Developer</title>
-  <meta name="description" content="Scottish Frontend Developer living in France" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="images/fav.png" />
+    <link rel="icon" type="image/x-icon" href="images/fav.png" />
+    <script defer src="https://kit.fontawesome.com/391e6a689e.js" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+      integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
 
-  <link rel="apple-touch-icon" href="images/fav.png" />
-  <link rel="icon" type="image/x-icon" href="images/fav.png" />
-  <script defer src="https://kit.fontawesome.com/391e6a689e.js" crossorigin="anonymous"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
-    integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
-    crossorigin="anonymous"></script>
-  <script defer src="js/app.js"></script>
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/app.css" />
-</head>
-
-<body>
-  <div class="bg">
-    <nav class="top-nav">
-      <div class="logo-container">RD</div>
-      <div class="menu-list__icon-container">
-        <a class="menu-icon">
-          <i class="fas fa-bars"></i>
-        </a>
+  <body>
+    <main>
+      <div class="logo-column">
+        <img class="logo" src="images/logo.svg" alt="Ruari Douglas Logo" />
+        <a class="download-cv" href="https://drive.google.com/file/d/1pEfvmGWOnKs7Zo3qxT0GPR0Y56-rw91A/view?usp=drive_link" target="_blank"
+          ><mark>Download CV</mark></a
+        >
       </div>
-      <ul class="menu-list">
-        <li class="cv-li">
-          <a aria-label="CV on Google Drive" rel="noopener" target="_blank"
-            href="https://drive.google.com/file/d/1rJwz9pLK7l0pmIlDmFvkVIRdL1f0o_nz/view?usp=sharing"><i
-              class="fas fa-download"></i>CV</a>
-        </li>
 
-        <li class="contact-li">
-          <a aria-label="Link to Email" rel="noopener" class="contact-link" href="mailto:ruari.c.douglas@gmail.com"></a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="side-nav">
-      <ul>
-        <li>
-          <a aria-label="Linkedin" rel="noopener" target="_blank" href="https://www.linkedin.com/in/ruari-douglas/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </li>
-        <li>
-          <a aria-label="Github" rel="noopener" target="_blank" href="https://github.com/RuariDouglas">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <main class="wrapper">
-      <section class="heading-text-container">
-        <h1 class="heading-text1">Ruari Douglas,<br>
-          Front end Developer
-        </h1>
-        <div class="heading-line"></div>
-        <a class="read-more__link">About Me</a>
-        <div class="about">
-          <p class="about__about-text about__about-text--heading">
-            Lover of life and tech.
-          </p>
-
-          <p class="about__about-text">
-            A proponent of inclusivity and practitioner of web accessibility best practices with two years of
-            development and five years of UI/UX design experience. My passion for development lies in architecture,
-            reusability and mentoring.</p>
-
-
-          <p class="about__about-text">
-            My goals in this journey are fairly simple; to mentor those in need. To continue to learn and grow in every
-            facet of my work, absorbing as much as I can from those my senior and to make positive
-            contributions to which ever team I land in.
-          </p>
-
-          <p class="about__about-text">
-            When I’m not at the computer, I'm almost exclusively playing music, trying to slap the bass as hard as can
-            and exploring the South of France with my girlfriend.
-          </p>
-          <p class="about__about-text">
-            If you’d like to find out more about me, don't hesitate to get in touch, all my details are available on my
-            <a class="about__link" aria-label="CV on Google Drive" rel="noopener" target="_blank"
-              href="https://drive.google.com/file/d/1wzQqz3uGmtLcSF6pfML7jfO1YdVFYgXy/view?usp=sharing">CV right
-              here</a>.
-            My mentees have said some nice things about me on Linkedin too <a class="about__link" target="_blank"
-              href="https://www.linkedin.com/in/ruari-douglas/">see my recomendations</a>.
-          </p>
-          <div class="heading-line"></div>
-        </div>
-      </section>
-
-
-      <section class="portfolio">
-        <div class="portfolio__entry">
-          <div class="entry__img-container">
-            <div class="shown-image">
-              <picture>
-                <source media="(max-width: 500px)" srcset="images/guardian-preview-500.webp" type="image/webp" />
-                <source media="(min-width: 500px)" srcset="images/guardian-preview-1000.webp" type="image/webp" />
-                <source media="(min-width: 1000px)" srcset="images/guardian-preview-1500.webp" type="image/webp" />
-                <source media="(max-width: 500px)" srcset="images/guardian-preview-500.jpg" type="image/jpeg" />
-                <source media="(min-width: 500px)" srcset="images/guardian-preview-1000.jpg" type="image/jpeg" />
-                <source media="(min-width: 1000px)" srcset="images/guardian-preview-1500.jpg" type="image/jpeg" />
-                <img src="images/guardian-preview-1500.jpg" alt="Guardian App Placeholder" />
-              </picture>
-            </div>
-            <div class="hover-image">
-              <picture>
-                <source media="(max-width: 500px)" srcset="images/guardian-ss-500.webp" type="image/webp" />
-                <source media="(min-width: 500px)" srcset="images/guardian-ss-1000.webp" type="image/webp" />
-                <source media="(min-width: 1000px)" srcset="images/guardian-ss-1500.webp" type="image/webp" />
-                <source media="(max-width: 500px)" srcset="images/guardian-ss-500.jpg" type="image/jpeg" />
-                <source media="(min-width: 500px)" srcset="images/guardian-ss-1000.jpg" type="image/jpeg" />
-                <source media="(min-width: 1000px)" srcset="images/guardian-ss-1500.jpg" type="image/jpeg" />
-                <img src="images/guardian-ss-1500.jpg" alt="Guardian App Screenshot" />
-              </picture>
-            </div>
-          </div>
-
-          <div class="entry__right-container">
-
-
-            <div class="entry__title-container">
-              <h2>React Guardian App</h2>
-            </div>
-            <div class="entry__link-container">
-
-
-              <a aria-label="React Guardian App" rel="noopener" target="_blank" class="entry-link__see-live"
-                href="https://the-guardian-app-faeb0.web.app/">
-                Live demo
-              </a>
-              <a target="_blank" aria-label="React Guardian App Github" rel="noopener" class="entry-link__view-code"
-                href="https://github.com/RuariDouglas/React-Guardian-App">See the Code</a>
-            </div>
-            <p class="entry__about-text">
-              Using The Guardian’s API & Style guide with The Open Weather API, I designed and built a fully responsive,
-              lite version of the current Guardian site. Built with React (w/Redux) & Firebase, this CRUD app fetches
-              daily news articles, allows users to sign in, create/edit/delete comments & search the guardian. For the
-              design, my goal was to modernising the aesthetic whilst ahering to brand guidelines.
-            </p>
-
-          </div>
-        </div>
-
-        <!-- PORTFOLIO ENTRY ENDS -->
-        <div class="portfolio__entry">
-          <div class="entry__img-container">
-            <div class="shown-image">
-              <picture>
-                <source media="(max-width: 500px)" srcset="images/music-preview-500.webp" type="image/webp" />
-                <source media="(min-width: 500px)" srcset="images/music-preview-1000.webp" type="image/webp" />
-                <source media="(min-width: 1000px)" srcset="images/music-preview-1000.webp" type="image/webp" />
-                <source media="(max-width: 500px)" srcset="images/music-preview-500.jpg" type="image/jpeg" />
-                <source media="(min-width: 500px)" srcset="images/music-preview-1000.jpg" type="image/jpeg" />
-                <source media="(min-width: 1000px)" srcset="images/music-preview-1500.jpg" type="image/jpeg" />
-                <img src="images/music-preview-1500.jpg" alt="Music Player Placeholder" />
-              </picture>
-            </div>
-            <div class="hover-image">
-              <picture>
-                <source media="(max-width: 500px)" srcset="images/music-ss-500.webp" type="image/webp" />
-                <source media="(min-width: 500px)" srcset="images/music-ss-1000.webp" type="image/webp" />
-                <source media="(min-width: 1000px)" srcset="images/music-ss-1000.webp" type="image/webp" />
-                <source media="(max-width: 500px)" srcset="images/music-ss-500.jpg" type="image/jpeg" />
-                <source media="(min-width: 500px)" srcset="images/music-ss-1000.jpg" type="image/jpeg" />
-                <source media="(min-width: 1000px)" srcset="images/music-ss-1500.jpg" type="image/jpeg" />
-                <img src="images/music-ss-1500.jpg" alt="Music Player Screenshot" />
-              </picture>
-            </div>
-          </div>
-
-          <div class="entry__right-container">
-            <div class="entry__title-container">
-              <h2>React Mini Music Player</h2>
-            </div>
-            <div class="entry__link-container">
-              <a aria-label="React Mini Music Player" target="_blank"
-                href="https://react-music-player-alpha.vercel.app/" rel="noopener">Live demo</a>
-              <a aria-label="Shift Tracker App Github" href="https://github.com/RuariDouglas/React-Player"
-                rel="noopener" target="_blank">See the Code</a>
-            </div>
-
-            <p class="entry__about-text">
-              Fully responsive React music player with functionality as expected: Play/Pause,
-              Skip Forward/Back, Drag handler to change position in song and a library with a selection of Royalty Free
-              study music.
-            </p>
-
-
-          </div>
-        </div>
-      </section>
-
+      <div class="content">
+        <p class="main-text">
+          Product designer currently shaping mission design and satellite operations software for
+          <span class="exotrail">Exotrail.</span><br />
+        </p>
+        <p class="secondary-text">Portolio coming soon, watch this space...</p>
+        <picture>
+          <img class="space" src="images/space.jpg" alt="Photo of space" />
+        </picture>
+      </div>
     </main>
-  </div>
-</body>
-
+  </body>
 </html>
