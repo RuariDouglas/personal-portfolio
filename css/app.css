@@ -3,19 +3,19 @@
   font-family: "Instrument Sans", sans-serif;
 }
 
-body {
+main {
   display: grid;
   padding: 1rem;
   grid-template-columns: 1;
   grid-gap: 2rem;
 }
 @media (min-width: 768px) {
-  body {
+  main {
     grid-template-columns: 12rem 1fr;
   }
 }
 @media (min-width: 1024px) {
-  body {
+  main {
     grid-template-columns: 20rem 1fr;
   }
 }
@@ -54,4 +54,4 @@ a.download-cv:hover mark {
   margin: 1rem 0 0.5rem;
   font-size: 32px;
   font-style: italic;
-} /*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
